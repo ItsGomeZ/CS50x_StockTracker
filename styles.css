@@ -1,0 +1,80 @@
+/* Custom Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff6a00, #ee0979); /* Bright, vibrant gradient */
+    color: #333; /* Dark text for better readability */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #ffffff; /* White color for the title */
+    margin-bottom: 20px;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 30px auto;
+}
+
+input {
+    font-size: 1.1rem;
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid #ff6a00;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    box-shadow: 0 0 8px rgba(255, 106, 0, 0.6);
+    border-color: #ee0979;
+}
+
+button {
+    font-size: 1.1rem;
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    background-color: #ff6a00;
+    color: white;
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ee0979;
+}
+
+/* Chart Styling */
+canvas {
+    max-height: 400px;
+    background-color: #fff; /* White background for the chart */
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Error Message Styling */
+.alert {
+    font-weight: bold;
+    display: none;
+}
