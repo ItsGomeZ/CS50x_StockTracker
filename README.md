@@ -37,11 +37,3 @@ The project employs a combination of frontend and backend technologies to create
 3. **Responsive Design**: The user interface was built using **Bootstrap 5**, which is a front-end framework that simplifies the process of creating responsive, mobile-first websites. The form and the chart both adjust dynamically to the size of the user’s screen, ensuring the app works seamlessly on devices of all sizes, from phones to desktop computers.
 
 4. **Error Handling**: To improve the user experience, the app provides error messages when no stock data is found for a given ticker symbol or if the user enters an invalid symbol. These messages are displayed in a red alert box at the top of the page, drawing attention to the issue.
-
-### How to Run the Project Locally:
-To run the Stock Tracker application locally, follow these steps:
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/stock-tracker.git
-   cd stock-tracker
